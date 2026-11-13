@@ -1,0 +1,12 @@
+{
+  "name": "expresamini",
+  "version": "2.0.0",
+  "private": true,
+  "description": "ExpresaMini: comunicación aumentativa y alternativa (CAA) offline para Android",
+  "scripts": {
+    "web": "npx http-server www -p 8080 -c-1",
+    "sync": "npx cap sync android",
+    "open": "npx cap open android",
+    "proxy": "node server/server.js"
+  }
+}
